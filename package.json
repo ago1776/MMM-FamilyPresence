@@ -1,0 +1,12 @@
+{
+  "name": "mmm-familypresence",
+  "version": "1.0.0",
+  "description": "MagicMirror² module: single-row household presence (home/away) from a presence JSON and/or calendar events.",
+  "main": "MMM-FamilyPresence.js",
+  "keywords": ["MagicMirror", "MMM-FamilyPresence", "presence", "home", "family"],
+  "author": "Andreas Göpfert",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/ago1776/MMM-FamilyPresence.git" },
+  "homepage": "https://github.com/ago1776/MMM-FamilyPresence#readme",
+  "bugs": { "url": "https://github.com/ago1776/MMM-FamilyPresence/issues" }
+}

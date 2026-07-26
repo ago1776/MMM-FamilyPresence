@@ -1,0 +1,8 @@
+{
+  "generated_at": "2026-01-14T10:00:00+00:00",
+  "source": "example",
+  "persons": {
+    "alice": { "home": true,  "last_seen_seconds": 120 },
+    "bob":   { "home": false, "last_seen_seconds": 5400 }
+  }
+}
