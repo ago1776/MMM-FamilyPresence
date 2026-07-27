@@ -21,7 +21,7 @@ built-in `calendar` module with the relevant feed(s).
 
 ```bash
 cd ~/MagicMirror/modules
-git clone https://github.com/<your-user>/MMM-FamilyPresence
+git clone https://github.com/ago1776/MMM-FamilyPresence
 ```
 
 ```js
@@ -61,3 +61,4 @@ Your own script overwrites this file; `source.key` selects the entry per person.
 ## License
 
 MIT © Andreas Göpfert
+
