@@ -31,13 +31,13 @@ Module.register("MMM-FamilyPresence", {
 	},
 
 	socketNotificationReceived(notification, payload) {
-		if (notification === "FAMILYPRESENCE_DATA") { this.presence = payload; this.updateDom(250); }
+		if (notification === "FAMILYPRESENCE_DATA") { this.presence = payload; this.updateDom(this.config.animationSpeed); }
 	},
 
 	notificationReceived(notification, payload) {
 		if (notification !== "CALENDAR_EVENTS") return;
 		this.events = (payload || []).slice().sort((a, b) => Number(a.startDate) - Number(b.startDate));
-		this.updateDom(250);
+		this.updateDom(this.config.animationSpeed);
 	},
 
 	eventsFor(prefix) {
